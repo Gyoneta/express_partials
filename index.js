@@ -7,6 +7,8 @@ const publicFolder = path.join(__dirname, 'public')
 const expressPublic = express.static(publicFolder)
 app.use(expressPublic)
 
+// or app.use(express.static(path.join(__dirname, 'public')))
+
 app.get('/', (req, res) => {
     res.render('index')
 
