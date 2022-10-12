@@ -1,0 +1,1 @@
+Getting used to express by using ejs, increasing scalability
