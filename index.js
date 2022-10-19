@@ -14,9 +14,16 @@ app.get('/', (req, res) => {
 
 })
 
+app.get('/about', (req,res) => {
+    res.render('about')
+})
+
 console.log('olar')
 
 
+ app.use((req,res) => {
+    res.send('page not found')
+ })
 
 
 const port = process.env.port || 8080

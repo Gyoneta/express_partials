@@ -1,1 +1,1 @@
-Getting used to express by using ejs, increasing scalability
+Studying partials and routes, getting used to EJS to increase scalabity
